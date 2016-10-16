@@ -23,6 +23,7 @@ public class BoobleV2 {
 			}
 			System.out.print(arr[i]+ " ");
 		}
+		// Все проверил! Работает!
 		
 		
 			
