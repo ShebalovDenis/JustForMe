@@ -34,5 +34,6 @@ public class MixedSort {
 		l++;
 		}
 	}
+	// И тут работает!
 
 }
