@@ -1,19 +1,20 @@
 package qqq.q1;
 public class BoobleV2 {
-//	public static void main(String[] args){
-//		int[] arr = new int[10];
-//		
-//		 
-//		 for(int i = 0; i < arr.length; i++){
-//		   arr[i] = (int)(Math.random()*100); 
-//		  // System.out.println(arr[i]);
-//		}
-//		
-//		doAlgoritm(arr);
-//		
-//		При необходимости запуска программы раскоментировать.
-//		}
-		public static void doAlgoritm(int[] arr)
+	public static void main(String[] args){
+		int n = ((int)(Math.random()*10)+1); 
+		int[] arr = new int[n]; // Задали массив рандомного размера 
+		
+		 
+		 for(int i = 0; i < arr.length; i++){
+		   arr[i] = (int)(Math.random()*100); // Заполнили массив рандомными числами
+		  // System.out.println(arr[i]);
+		}
+		
+		doAlgoritm(arr);
+		
+		//При необходимости запуска программы раскоментировать.
+		}
+		public static int[] doAlgoritm(int[] arr)
 	    {	
 		for(int i = 0; i < arr.length-1; i++){
 			for(int j = i+1 ; j < arr.length-1; j++){
@@ -26,7 +27,7 @@ public class BoobleV2 {
 		// Все проверил! Работает!
 		
 		
-			
+			return arr;
 		}
 
 }
