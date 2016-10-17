@@ -1,21 +1,21 @@
 package qqq.q1;
 
 public class MixedSort {
-//	public static void main(String[] args) {
-//		int[] arr = new int[1000];
-//		System.out.println("Рандомный массив:");
-//
-//		 for(int i = 0; i < arr.length; i++){
-//		   arr[i] = (int)(Math.random()*1000);
-//		   System.out.print(arr[i] + " ");
-//		}
-//		 mixIt(arr);
-//		 System.out.println();
-//		 System.out.println("Отсортированный рандомный массив:");
-//		 for(int i = 0; i < arr.length; i++){
-//			   System.out.print(arr[i]+" ");
-//			}
-//	}   Раскоментировать при запуске программы.
+	public static void main(String[] args) {
+		int[] arr = new int[((int)(Math.random()*10)+1)];
+		System.out.println("Рандомный массив:");
+
+		 for(int i = 0; i < arr.length; i++){
+		   arr[i] = (int)(Math.random()*100);
+		   System.out.print(arr[i] + " ");
+		}
+		 mixIt(arr);
+		 System.out.println();
+		 System.out.println("Отсортированный рандомный массив:");
+		 for(int i = 0; i < arr.length; i++){
+			   System.out.print(arr[i]+" ");
+			}
+	}  // Раскоментировать при запуске программы.
 	
 	
 	public static void mixIt(int[] arr) {
